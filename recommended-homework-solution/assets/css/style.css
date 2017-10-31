@@ -248,29 +248,62 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   #main-container {
     width: 400px;
+    margin-left: 120px;
+  }
+ .sidebar{
+   position: absolute;
+   right: 125px;
+ }
+  #logo{
+    margin-left: 120px;
+  }
+  nav{
+    margin-right: 120px;
   }
   .auth-image {
-    width: 350px;
+    width: 325px;
   }
-}
 
 @media screen and (max-width: 768px) {
-  .main-section {
-    width: 750px;
-   }
+  .main-section{
+    margin-top: 15px;
+    margin-left: -70px;
+    width: 768px;
+  }
   .auth-image {
-    width: 590px;
+    width: 300px;
   }
-  .sidebar {
-    width: 700px;
+   #logo{
+    margin-left: 50px;
   }
+  nav{
+    margin-right: 50px;
+  } 
+  .sidebar{
+    position: relative; 
+    left: 0px;
+    padding: 30px 150px 30px 30px;
+    max-width: 700px;            
+  } 
 }
 
 @media screen and (max-width: 640px) {
-  #main-container {
+  .main-section{
+    margin-top: 50px;
+    margin-left: -110px;
     width: 600px;
   }
   .auth-image {
-    width: 350px;
+    width: 535px;
+  }
+  nav{
+    text-align: center;
+    width: 100%;
+    margin: 15px;  
+  }
+  #logo{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
   }
 }
