@@ -154,7 +154,7 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  width: 650px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -246,64 +246,90 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  #main-container {
-    width: 400px;
-    margin-left: 120px;
-  }
- .sidebar{
-   position: absolute;
-   right: 125px;
- }
-  #logo{
-    margin-left: 120px;
-  }
-  nav{
-    margin-right: 120px;
-  }
   .auth-image {
-    width: 325px;
+    clear: both;
+    width: 365px;
+  }
+  #masthead {
+    padding: 0px 95px 0px 95px;
+    position: static;
+  }
+  .main-section {
+    width: 425px;
+    margin-left: 90px;
+  }
+  .sidebar {
+    margin-right: 125px;
   }
 
+  .work{
+    width: 365px;
+  }
+
+  #main-container{
+    padding: 0px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .main-section{
-    margin-top: 15px;
-    margin-left: -70px;
-    width: 768px;
+  #masthead {
+    padding: 0px 5px 0px 25px;
+    position: static;
   }
-  .auth-image {
-    width: 300px;
+  .sidebar {
+    clear: both;
+    max-width: 95%;
+    margin-right: 15px;
   }
-   #logo{
-    margin-left: 50px;
+  .main-section {
+    clear: both;
+    width: 715px;
+    margin: 0px 20px 40px 22px;
   }
-  nav{
-    margin-right: 50px;
-  } 
-  .sidebar{
-    position: relative; 
-    left: 0px;
-    padding: 30px 150px 30px 30px;
-    max-width: 700px;            
-  } 
+  
+  .work{
+    width: 306px;
+  }
+  
+  #main-container{
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  .main-section{
-    margin-top: 50px;
-    margin-left: -110px;
-    width: 600px;
+ 
+  #masthead{
+    width: 640px;
+    padding: 0px;
+    clear: both;
+    position: static;
   }
-  .auth-image {
-    width: 535px;
-  }
-  nav{
-    text-align: center;
-    width: 100%;
-    margin: 15px;  
-  }
+
   #logo{
-    text-align: center;
-    width: 100%;
-    margin-left: 0px;
+    width: 640px;
+  }
+
+  nav a{
+    margin-right: 115px;
+  }
+
+  .main-section {
+    clear: both;
+    width: 575px;
+    margin: 35px 20px 20px 20px;
+  }
+
+  .sidebar {
+    clear: both;
+    max-width: 93%;
+    margin-right: 25px;
+  }
+
+  .work{
+    width: 515px;    
+  }
+
+  #main-container{
+    padding: 0px;
   }
 }
