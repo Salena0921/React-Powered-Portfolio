@@ -248,22 +248,10 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .auth-image {
     clear: both;
-    width: 365px;
+    
   }
-  #masthead {
-    padding: 0px 95px 0px 95px;
+  #masthead {    
     position: static;
-  }
-  .main-section {
-    width: 425px;
-    margin-left: 90px;
-  }
-  .sidebar {
-    margin-right: 125px;
-  }
-
-  .work{
-    width: 365px;
   }
 
   #main-container{
@@ -272,8 +260,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-  #masthead {
-    padding: 0px 5px 0px 25px;
+  #masthead {   
     position: static;
   }
   .sidebar {
@@ -283,18 +270,10 @@ input[type=submit] {
   }
   .main-section {
     clear: both;
-    width: 715px;
+    width: 95%;
     margin: 0px 20px 40px 22px;
   }
   
-  .work{
-    width: 306px;
-  }
-  
-  #main-container{
-    padding: 0px;
-  }
-}
 
 @media screen and (max-width: 640px) {
  
