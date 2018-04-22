@@ -11,7 +11,6 @@ body {
 
 #mainnav {
   background: none;
- 
 }
 
 #homelink,
@@ -32,6 +31,14 @@ body {
   float: left;
   font-size: 18px;
   text-align: center;
+}
+
+#myphoto {
+  border-radius: 25px;
+  border: 2px solid rgb(255, 217, 0);
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
 }
 
 footer {
