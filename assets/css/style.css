@@ -31,6 +31,7 @@ body {
   float: left;
   font-size: 18px;
   text-align: center;
+  color: rgb(223, 190, 6)
 }
 
 #myphoto {
@@ -39,6 +40,27 @@ body {
   padding: 20px; 
   width: 200px;
   height: 150px;
+}
+
+.carousel{
+  position: relative;
+  top: 100px;
+}
+
+.card{
+  text-align: center;
+  position: relative;
+  top: 200px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.card-header{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.sociallink{
+  width: 100px;
 }
 
 footer {
