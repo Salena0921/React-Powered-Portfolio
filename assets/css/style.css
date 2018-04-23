@@ -31,6 +31,7 @@ body {
   float: left;
   font-size: 18px;
   text-align: center;
+  background: rgba(0, 0, 0, 0.6);
   color: rgb(223, 190, 6)
 }
 
