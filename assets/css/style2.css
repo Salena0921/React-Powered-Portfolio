@@ -1,0 +1,45 @@
+/* top of page */
+
+#topofpage {
+    background-color: #ba5e8c;
+    height: 200px;
+}
+
+#logo {
+    box-align: center;
+    height: 200px;
+    width: 700px;
+}
+
+.losange, .losange div {    
+    margin: 0 auto;
+    transform-origin: 40% 50%;
+    overflow: hidden;
+    width: 290px;
+    height: 290px;
+    border: solid white 4px;
+  }
+  .losange {
+    transform: rotate(45deg) translateY(61px);
+  }
+  .losange .los1 {
+    width: 500px;
+    height: 615px;
+    transform: rotate(-45deg) translateY(-255px);
+  }
+  .losange .los1 img {
+    width: 100%;
+    height: auto;
+  }
+
+/* menu */
+
+.menu {
+    border: 2px solid #ba5e8c;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    margin: 25px;
+    height: 500px;
+    width: 200px;
+}
