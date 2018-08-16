@@ -1,25 +1,30 @@
-/* General
-
+/* General */
 body {
-    background-color: #ffead6;
-    color: #221336;
+    background-image: linear-gradient(to bottom right, #e5bf82, #ffbcbc, #f9d1c7, #f9e0d9, #f9d1c7, #ffbcbc, #e5bf82);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #2e6171;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
 }
 
-#areacontent{
-    padding:10px;
+/*Landing Page*/
+.landingpage {
+    position: absolute;
+    top: 225px;
+    left: 25px;
 }
 
-/* Top of Page */
-
-/*#topofpage {
-    background-color: #ba5e8c;
-    height: 200px;
+/* Fairy photo */
+#fairyphoto {
+    text-align: center;
 }
 
-#logo {
-    box-align: center;
-    height: 200px;
-    width: 600px;
+/* Landing page photo */
+#profileimage {
+    align-content: center;
 }
 
 .losange,
@@ -29,7 +34,7 @@ body {
     overflow: hidden;
     width: 225px;
     height: 225px;
-    border: solid #ffead6 4px;
+    /* border: solid #e5bf82 4px; */
 }
 
 .losange {
@@ -47,8 +52,20 @@ body {
     height: auto;
 }
 
-/* Main Body */
-/*#photosum{
+/* Top of Page */
+
+/* #topofpage {
+    background-color: #ba5e8c;
+    height: 200px;
+}
+
+#logo {
+    box-align: center;
+    height: 200px;
+    width: 600px;
+} */
+
+/* #photosum{
     width: 450px;
 }
 #quickabout {
@@ -57,22 +74,22 @@ body {
     font-size: 25px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;    
-}
+} */
 
 /* Menu */
 
-/*.menu {
+/* .menu {
     border: 2px solid #ba5e8c;
     border-radius: 5px;
     padding:25px;
     font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    /* position: relative;
+    position: relative;
     top: 50px; 
-}*/
+}
 
-/*.nav-link {
+.nav-link {
     color: #221336;
 }
 
@@ -83,5 +100,14 @@ body {
 
 #pagelinks{
     width: 200px;    
+} */
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
- */
