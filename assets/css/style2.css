@@ -12,44 +12,58 @@ body {
 
 /*Landing Page*/
 .landingpage {
-    position: absolute;
-    top: 225px;
-    left: 25px;
+    position: relative;
+    left: 100px;
+    top: 125px;
+    padding: 75px;
 }
-
 /* Fairy photo */
-#fairyphoto {
+#fairyphoto{
+    position: relative;
+    top: 125px;
+    left: 50px;
+    transform: rotate(20deg);
+}
+
+/* Enter site */
+#entersite{
+    position: relative;
+    top: 100px; 
+    right: 110px;
     text-align: center;
+    font-size: 50px;
 }
 
-/* Landing page photo */
-#profileimage {
-    align-content: center;
+.clicktoenter{
+    position: relative;
+    top: 75px;       
+}
+#buttondesign{
+    background-color: #2e6171;
+    color: #e5bf82;
+    border-color: #2e6171;
 }
 
-.losange,
-.losange div {
-    margin: 0 auto;
-    transform-origin: 30% 45%;
-    overflow: hidden;
-    width: 225px;
-    height: 225px;
-    /* border: solid #e5bf82 4px; */
-}
-
-.losange {
-    transform: rotate(45deg) translateY(30px);
-}
-
-.losange .los1 {
-    width: 370px;
-    height: 500px;
-    transform: rotate(-45deg) translateY(-150px);
-}
-
-.losange .los1 img {
-    width: 100%;
-    height: auto;
+.sparkley {
+    background: #2e6171;
+    color: #e5bf82;
+    border: none;
+    padding: 16px 36px;
+    font-weight: normal;
+    border-radius: 3px;
+    transition: all 0.25s ease;
+    box-shadow: 0 38px 32px -23px black;
+    margin: 0 1em 1em;
+  }
+  .sparkley:hover {
+    background: #2e6171;
+    color:(#e5bf82, 0.2);
+  }
+/* Profile image */
+.profileimage{
+    border-radius: 50%;
+    position: relative;    
+    right: 25px;
 }
 
 /* Top of Page */
