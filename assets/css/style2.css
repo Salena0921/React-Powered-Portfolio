@@ -13,23 +13,23 @@ body {
 /*Landing Page*/
 .landingpage {
     position: relative;
-    left: 100px;
+    left: 75px;
     top: 125px;
     padding: 75px;
 }
 /* Fairy photo */
-#fairyphoto{
+.fairyphoto{
     position: relative;
-    top: 125px;
+    top: 25px;
     left: 50px;
-    transform: rotate(20deg);
+    transform: rotate(15deg);
 }
 
 /* Enter site */
 #entersite{
     position: relative;
     top: 100px; 
-    right: 110px;
+    left: 100px;
     text-align: center;
     font-size: 50px;
 }
@@ -63,7 +63,7 @@ body {
 .profileimage{
     border-radius: 50%;
     position: relative;    
-    right: 25px;
+    left: 75px;
 }
 
 /* Top of Page */

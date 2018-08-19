@@ -1,8 +1,13 @@
+function start() {
+  $(".aboutme").hide();
+  $("#buttondesign").on("click", function () {
+      $(".aboutme").show();
+      $(".landingpage").hide();
+  })
+};
+start();
 
-
-$(function() {
-
-  
+$(function() {  
   // default is varying levels of transparent white sparkles
   $(".sparkley:first").sparkleh();
   
