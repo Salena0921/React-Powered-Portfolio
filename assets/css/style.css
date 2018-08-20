@@ -1,74 +1,127 @@
+/* General */
 body {
-  background-image: url("../images/beautiful-blur-bright-326055.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  font-family: 'Cinzel Decorative', cursive;
-  font-weight: 700;
-  color: rgb(255, 217, 0);
+    background-image: linear-gradient(to bottom right, #e5bf82, #ffbcbc, #f9d1c7, #f9e0d9, #f9d1c7, #ffbcbc, #e5bf82);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #2e6171;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
 }
 
-#mainnav {
-  background: none;
+/*Landing Page*/
+.landingpage {
+    position: relative;
+    left: 75px;
+    top: 125px;
+    padding: 75px;
+}
+/* Fairy photo */
+.fairyphoto{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    transform: rotate(15deg);
 }
 
-#homelink,
-#portfoliolink,
-#contactlink {
-  color: rgb(255, 217, 0);
-  font-size: 18px;
+/* Enter site */
+#entersite{
+    position: relative;
+    top: 100px; 
+    left: 100px;
+    text-align: center;
+    font-size: 50px;
 }
 
-#aboutme {
-  background: none;
-  font-size: 30px;
-  text-align: center;
+.clicktoenter{
+    position: relative;
+    top: 75px;       
+}
+#buttondesign{
+    background-color: #2e6171;
+    color: #e5bf82;
+    border-color: #2e6171;
 }
 
-#quote {
-  background: none;
-  float: left;
-  font-size: 18px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  color: rgb(223, 190, 6)
+.sparkley {
+    background: #2e6171;
+    color: #e5bf82;
+    border: none;
+    padding: 16px 36px;
+    font-weight: normal;
+    border-radius: 3px;
+    transition: all 0.25s ease;
+    box-shadow: 0 38px 32px -23px black;
+    margin: 0 1em 1em;
+  }
+  .sparkley:hover {
+    background: #2e6171;
+    color:(#e5bf82, 0.2);
+  }
+/* Profile image */
+.profileimage{
+    border-radius: 50%;
+    position: relative;    
+    left: 75px;
 }
 
-#myphoto {
-  border-radius: 25px;
-  border: 2px solid rgb(255, 217, 0);
-  padding: 20px; 
-  width: 200px;
-  height: 150px;
+/* Top of Page */
+
+/* #topofpage {
+    background-color: #ba5e8c;
+    height: 200px;
 }
 
-.carousel{
-  position: relative;
-  top: 100px;
+#logo {
+    box-align: center;
+    height: 200px;
+    width: 600px;
+} */
+
+/* #photosum{
+    width: 450px;
+}
+#quickabout {
+    color: #221336;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;    
+} */
+
+/* Menu */
+
+/* .menu {
+    border: 2px solid #ba5e8c;
+    border-radius: 5px;
+    padding:25px;
+    font-size: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    position: relative;
+    top: 50px; 
 }
 
-.card{
-  text-align: center;
-  position: relative;
-  top: 200px;
-  background: rgba(0, 0, 0, 0.3);
+.nav-link {
+    color: #221336;
 }
 
-.card-header{
-  font-size: 40px;
-  font-weight: 400;
+#professionallinks{
+    width: 200px;
+    margin-top: 95px;
 }
 
-.sociallink{
-  width: 100px;
-}
+#pagelinks{
+    width: 200px;    
+} */
+
+/* Footer */
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

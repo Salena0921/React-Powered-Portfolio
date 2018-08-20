@@ -1,26 +1,39 @@
 function start() {
   $(".aboutme").hide();
   $(".portfolio").hide();
+  $(".contact").hide();
   $("#buttondesign").on("click", function () {
     $(".aboutme").show();
-    $(".landingpage").hide();    
+    $(".landingpage").hide();        
   })
+  
+  $("#homelink").on("click", function () {
+    console.log("creature")
+    $(".aboutme").show();
+    $(".landingpage").hide();
+    $(".portfolio").hide();
+    $(".contact").hide();
+  });
+  
+  $("#portfoliolink").on("click", function () {
+    console.log("creature")
+    $(".portfolio").show();
+    $(".aboutme").hide();
+    $(".landingpage").hide();
+    $(".contact").hide();
+  });
+
+  $("#contactlink").on("click", function () {
+    console.log("creature")
+    $(".contact").show();
+    $(".aboutme").hide();
+    $(".portfolio").hide();
+    $(".landingpage").hide();
+  });
 };
 start();
 
-$("#homelink").on("click", function () {
-  console.log("creature")
-  $(".aboutme").show();
-  $(".landingpage").hide();
-  $(".portfolio").hide();
-});
 
-$("#portfoliolink").on("click", function () {
-  console.log("creature")
-  $(".portfolio").show();
-  $(".aboutme").hide();
-  $(".landingpage").hide();
-});
 
 $(function () {
   // default is varying levels of transparent white sparkles
