@@ -9,7 +9,7 @@ body {
     font-weight: 600;
 }
 
-.container {
+#jumbotron {
     background-image: url("../images/bloom-blooming-blossom-414660.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -40,6 +40,12 @@ body {
     text-align: center;
 }
 
+
+#aboutme {
+    color: rgb(219, 110, 128);
+    position: relative;
+    top: 75px;
+}
 
 /* Footer */
 
