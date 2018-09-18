@@ -5,123 +5,49 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    color: #2e6171;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
 }
 
-/*Landing Page*/
-.landingpage {
-    position: relative;
-    left: 75px;
-    top: 125px;
-    padding: 75px;
-}
-/* Fairy photo */
-.fairyphoto{
-    position: relative;
-    top: 25px;
-    left: 50px;
-    transform: rotate(15deg);
+.container {
+    background-image: url("../images/bloom-blooming-blossom-414660.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 275px;
+    color: white;    
+    text-align: center; 
 }
 
-/* Enter site */
-#entersite{
-    position: relative;
-    top: 100px; 
-    left: 100px;
-    text-align: center;
-    font-size: 50px;
+#myName {
+    font-size: 60px;
+    font-weight: 700;    
 }
 
-.clicktoenter{
-    position: relative;
-    top: 75px;       
-}
-#buttondesign{
-    background-color: #2e6171;
-    color: #e5bf82;
-    border-color: #2e6171;
-}
-
-.sparkley {
-    background: #2e6171;
-    color: #e5bf82;
-    border: none;
-    padding: 16px 36px;
-    font-weight: normal;
-    border-radius: 3px;
-    transition: all 0.25s ease;
-    box-shadow: 0 38px 32px -23px black;
-    margin: 0 1em 1em;
-  }
-  .sparkley:hover {
-    background: #2e6171;
-    color:(#e5bf82, 0.2);
-  }
-/* Profile image */
-.profileimage{
-    border-radius: 50%;
-    position: relative;    
-    left: 75px;
-}
-
-/* Top of Page */
-
-/* #topofpage {
-    background-color: #ba5e8c;
-    height: 200px;
-}
-
-#logo {
-    box-align: center;
-    height: 200px;
-    width: 600px;
-} */
-
-/* #photosum{
-    width: 450px;
-}
-#quickabout {
-    color: #221336;
-    text-align: center;
+#myTitle {
     font-size: 25px;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;    
-} */
-
-/* Menu */
-
-/* .menu {
-    border: 2px solid #ba5e8c;
-    border-radius: 5px;
-    padding:25px;
-    font-size: 24px;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-    position: relative;
-    top: 50px; 
+    font-weight: 400; 
 }
 
-.nav-link {
-    color: #221336;
+#quote {
+    font-size: 18px;
+    font-weight: 400; 
 }
 
-#professionallinks{
-    width: 200px;
-    margin-top: 95px;
+.btn {
+    background-color: white;
+    border: none;
+    color: pink;
+    text-align: center;
 }
 
-#pagelinks{
-    width: 200px;    
-} */
 
 /* Footer */
 
 footer {
+    color: white;
     position: fixed;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    bottom: 0;    
     text-align: center;
+    width: 100%;
 }
