@@ -7,7 +7,9 @@ const web = (props) => {
             <h1>Web and Applications Portfolio</h1>
             <div className="row">
                 <div className="col-3">
-                   <Card/>
+                   <Card
+                    
+                   />
                 </div>
                 <div className="col-3">
                    <Card/>
